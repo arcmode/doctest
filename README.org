@@ -1,8 +1,12 @@
+# doctest
+
+[[http://clojars.org/doctest][http://clojars.org/doctest/latest-version.svg]]
+
 #+TITLE: doctest
 
 A Clojure library designed to provide docstring-driven testing for clojure.
 
-Inspired by the python library =doctest= [1] and =clj-doc-test= [2], currently
+Inspired by the python library [[https://docs.python.org/2/library/doctest.html][doctest]]  and [[https://github.com/Kobold/clj-doc-test/][clj-doc-test]], currently
 provides almost the same functionality but I'm planning to experiment with
 features like mocking and reporting.
 
@@ -15,7 +19,3 @@ See the source code.
 Copyright (c) 2015 David Rojas.
 
 This project is licensed under the terms of the MIT license.
-
-[1] https://docs.python.org/2/library/doctest.html
-
-[2] https://github.com/Kobold/clj-doc-test/
